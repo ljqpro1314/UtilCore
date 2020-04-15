@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'UtilCore_Example' do
   pod 'UtilCore', :path => '../'
+  pod 'EmptyDataView' , :path => '../'
   target 'UtilCore_Tests' do
     inherit! :search_paths
 
